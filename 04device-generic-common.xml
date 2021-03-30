@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	
+	<remove-project name="device/generic/common" />
+	<remove-project name="device/generic/firmware" />
+	
 	<!-- DEVICE -->  
 	<project path="device/generic/common" name="android_x86_device_generic_common" remote="getitnowmarketing" revision="AsusT102HA" />
 	<project path="device/generic/firmware" name="android_x86_device_generic_firmware" remote="BR-getitnowmarketing" revision="AsusT102HA" />
