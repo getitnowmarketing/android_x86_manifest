@@ -712,5 +712,7 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <include name="android-x86.xml" />
+  <include name="00remotes.xml" />
+  <include name="04device-generic-common.xml" />
 
 </manifest>
