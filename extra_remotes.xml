@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- From Android-x86 repositories -->
-  <remote name="getitnowmarketing" fetch="github.com/getitnowmarketing" />
+  <remote name="x86" fetch="https://scm.osdn.net/gitroot/android-x86" />
+  <remote name="getitnowmarketing" fetch="https://github.com/getitnowmarketing" />
 
 </manifest>
