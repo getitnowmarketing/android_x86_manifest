@@ -188,17 +188,11 @@
   <remove-project name="toolchain/pgo-profiles" />
 
   <!-- From Android-x86 repositories -->
-  <--<remote  name="x86" fetch="." />-->
 
   <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19" />
   <project path="bionic" name="platform/bionic" remote="x86" revision="pie-x86" />
   <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="pie-x86" />
-  <--
-  <project path="device/generic/common" name="device/generic/common" remote="x86" revision="pie-x86" />
-  <project path="device/generic/firmware" name="device/generic/firmware" remote="x86" revision="pie-x86" />
-  <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="pie-x86" />
-  <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="pie-x86" />
-  -->
+  
   <project path="external/IA-Hardware-Composer" name="platform/external/IA-Hardware-Composer" remote="x86" revision="pie-x86" />
   <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="pie-x86" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="pie-x86" />
