@@ -4,7 +4,7 @@
 	<remove-project name="device/generic/common" />
 	<remove-project name="device/generic/firmware" />
 	
-	<remote name="getitnowmarketing" fetch="github.com/getitnowmarketing" />
+	<remote name="getitnowmarketing" fetch="https://github.com/getitnowmarketing" />
 	
 	<!-- DEVICE -->  
 	<project path="device/generic/common" name="android_x86_device_generic_common" remote="getitnowmarketing" revision="AsusT102HA" />
