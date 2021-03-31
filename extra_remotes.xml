@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- From Android-x86 repositories -->
+  <remote name="x86" fetch="https://scm.osdn.net/gitroot/android-x86" />
+  <remote name="getitnowmarketing" fetch="https://github.com/getitnowmarketing" />
+
+</manifest>

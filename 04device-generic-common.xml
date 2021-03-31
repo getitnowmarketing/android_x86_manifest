@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	
-	<remove-project name="device/generic/common" />
-	<remove-project name="device/generic/firmware" />
-	
 	<!-- DEVICE -->  
 	<project path="device/generic/common" name="android_x86_device_generic_common" remote="getitnowmarketing" revision="AsusT102HA" />
 	<project path="device/generic/firmware" name="android_x86_device_generic_firmware" remote="getitnowmarketing" revision="AsusT102HA" />
+	
+  	<project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="pie-x86" />
+  	<project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="pie-x86" />
   <!--
 	<project path="device/generic/x86_64" name="platform_device_generic_x86_64" remote="BR-x86" revision="r-x86" />
 	<project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="q-x86" />
