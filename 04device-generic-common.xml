@@ -12,8 +12,13 @@
 	<project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="q-x86" />
 	-->
   <!-- KERNEL -->
-	<!-- <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19" /> -->
-	<!--<project path="kernel" name="android-generic/kernel_common" remote="ghub" revision="kernel-5.8-si-next-fs" />
+	<project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19"
+	<project path="external/kernel-drivers" name="platform/external/kernel-drivers" remote="x86" revision="pie-x86" />
+	<!--
+	<project path="kernel" name="android_x86_generic_kernel_common" remote="getitnowmarketing" revision="kernel-5.8-si-next-fs" />
+	<project path="external/kernel-drivers" name="android-generic/external_kernel-drivers" remote="ghub" revision="r-x86-k5.x" />
+	-->
+	<!--
 	<project path="test/kernel" name="kernel/tests" remote="aosp" />
 	<project path="external/kernel-drivers" name="android-generic/external_kernel-drivers" remote="ghub" revision="r-x86-k5.x" />
 	<project name="external_surface-drivers" path="vendor/surface-drivers" remote="BR-x86" revision="q10-07.25.20" />
